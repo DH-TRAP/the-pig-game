@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'inter';
+    src: url('./fonts/Inter-Regular.woff2');
+}
+*{
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+}
+.hidden{
+    display: none;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 212, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+body{
+    height: 58.4vh;
+    margin: 10vw;
+    background-image: url("./images/noise-transparent.png"), linear-gradient(90deg, #7623a7 10%, #8ff1e9, #8ff1e9, #7623a7 90%);
+}
+p{
+    margin-top: 10vw;
+}
+.common{
+    position: absolute;
+    height: 80vh;
+    width: 20vw;
+    margin-left: 30vw;
+}
+input{
+    width: 12vw;
+    font-family: 'inter';
+    font-size: 2.5vw;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    color: #501212;
+    background-color: transparent;
+}
+.player{
+    font-family: 'inter';
+    font-size: 2.5vw;
+}
+button{
+    position: absolute;
+    height: 5vh;
+    width: 10vw;
+    border: none;
+    border-radius: 2vw;
+    font-size: 1.3vw;
+    color: #FFFAE7;
+    background-color: #EB455F;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover{
+    cursor: pointer;
+}
+
+.controls{
+    margin-left: -30vw;
+}
+.playAgain{
+    margin: 10vh 35vw;
+}
+.playAgain:active{
+    margin: 10.1vh 35vw;
+    width: 10.05vw;
+}
+.dice{
+    border-radius: 1vw;
+    margin: 25vh 36.5vw;
+    position: absolute;
+    height: 7vw;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.rollDice{
+    margin: 50vh 35vw;
+}
+.rollDice:active{
+    margin: 50.1vh 35vw;
+    width: 10.05vw;
+}
+.hold{
+    margin: 57vh 35vw;
+}
+.hold:active{
+    margin: 57.1vh 35vw;
+    width: 10.05vw;
+}
+
+.top{
+    position: absolute;
+    margin: 10vh 15vw;
+}
+.pig{
+    position: absolute;
+    width: 12vw;
+    margin: 32vh 14.5vw;
+}
+.score{
+    font-weight: 600;
+    text-align: center;
+    padding: 0.4vw;
+    height: 6vh;
+    width: 13vw;
+    font-size: 1.8vw;
+    color: #11771d;
+    margin: 3vh -1vw;
+    border-radius: 0.4vw;
+    background-color: #ffffff1a;
+    box-shadow: 0 4px 8px 0 rgba(95, 4, 80, 0.05), 0 6px 20px 0 rgba(95, 4, 80,0.05);
+}
+.bottom{
+    position: absolute;
+    margin: 61vh 14.2vw;
+    color: white;
+}
+.collect{
+    margin: 0.6vh 5vw;
+}
+
+.scoreBox{
+    position: absolute;
+    margin: 60vh 10vw; /*12vw*/
+    height: 7vw;
+    width: 20vw; /*15vw*/
+    border-radius: 1vw; /*10vw*/
+    background: #D2001A;
+}
+.scoreBox1{
+    position: absolute;
+    margin: 6vh 2vw;
+    height: 5vw;
+    width: 5vw;
+    border-radius: 3.33vw;
+    background: #E26868;
+}
+.scoreBox2{
+    position: absolute;
+    margin: 6vh 8vw;
+    height: 5vw;
+    width: 5vw;
+    border-radius: 3.33vw;
+    background: #E26868;
+}
+
+.player1bg{
+    opacity: 100%;
+    width: 40vw;
+    border-radius: 1.5vw 0vw 0vw 1.5vw;
+    background: rgba(255, 255, 255, 0.5);
+}
+.player2bg{
+    opacity: 50%;
+    margin-left: 40vw;
+    width: 40vw;
+    border-radius: 0vw 1.5vw 1.5vw 0vw;
+    /* background: rgba(255, 255, 255, 0.0); */
+}
+.playArea{
+    top: 10vh;
+    border-radius: 1.5vw;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* Color Theme
+linear gradient
+#790d49
+#9e1e65
+#c95a97
+#d671a9
+Player Name 
+#501212
+#FFFAE7
+#EB455F
+#11771d
+#ffffff1a
+#D2001A
+#E26868S
+rgba(255, 255, 255, 0.5)
+*/

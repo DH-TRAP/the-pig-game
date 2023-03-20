@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIG GAME</title>
+    <link rel="stylesheet" href="the-pig-game.css">
+</head>
+
+<body>
+
+    <div id=" common" class="common playArea">
+
+        <div class="common player1bg hidden">
+            <img class="p1won pig hidden" src='./images/pig.jpg'>
+            <div class="scoreBox shadow p1Box">
+            </div>
+            <div class="player">
+                <div class="top">
+                    <input type="text" class="name1">
+                    <div class="score">
+                        SCORED <dic class="sc1">0</dic>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="cll1">Collected</div>
+                    <div class="collect cl1">0</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="playerbg" class="common player2bg hidden">
+            <img class="p2won pig hidden" src='./images/pig.jpg'>
+            <div class="scoreBox shadow p2Box">
+            </div>
+            <div class="player">
+                <div class="top">
+                    <input type="text" class="name2">
+                    <div class="score">
+                        SCORED <dic class="sc2">0</dic>
+                    </div>
+                </div>
+                <div class="bottom p2Box">
+                    <div class="cll2">Collected</div>
+                    <div class="collect cl2">0</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="playAgain">START</button>
+            <img class="dice" src="">
+            <button class="rollDice">Roll Dice</button>
+            <button class="hold">Hold</button>
+        </div>
+
+    </div>
+
+    <script src="the-pig-game.js"></script>
+</body>
+
+</html>
